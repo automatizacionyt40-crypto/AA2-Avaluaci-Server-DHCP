@@ -21,7 +21,7 @@ En aquesta primera captura es mostra la configuració de la màquina Ubuntu prep
 
 <div align="center">
 
-![Configuració inicial d’Ubuntu Server][image1]
+![Configuració inicial d'Ubuntu Server](img/image1.png)
 
 <sub><i>Figura 1. Configuració inicial de la màquina Ubuntu Server.</i></sub>
 
@@ -33,7 +33,7 @@ En aquest pas es crea l’usuari i es configura el servidor amb les credencials 
 
 <div align="center">
 
-![Creació de l’usuari i configuració del servidor][image2]
+![Creació de l’usuari i configuració del servidor](img/image2.png)
 
 <sub><i>Figura 2. Creació de l’usuari i configuració inicial del servidor.</i></sub>
 
@@ -45,7 +45,7 @@ Un cop finalitzada la instal·lació inicial, la màquina queda preparada per co
 
 <div align="center">
 
-![Sistema preparat][image3]
+![Sistema preparat](img/image3.png)
 
 <sub><i>Figura 3. Ubuntu Server preparat per iniciar la pràctica.</i></sub>
 
@@ -61,7 +61,7 @@ En aquesta fase s’instal·la **Kea**, el programari que s’utilitzarà com a 
 
 <div align="center">
 
-![Instal·lació de Kea][image4]
+![Instal·lació de Kea](img/image4.png)
 
 <sub><i>Figura 4. Instal·lació del programari Kea.</i></sub>
 
@@ -73,7 +73,7 @@ Després de la instal·lació, es comprova que Kea ha quedat instal·lat correct
 
 <div align="center">
 
-![Verificació de Kea][image5]
+![Verificació de Kea](img/image5.png)
 
 <sub><i>Figura 5. Verificació de la instal·lació i del funcionament de Kea.</i></sub>
 
@@ -89,7 +89,7 @@ Aquesta captura mostra el servidor amb la seva IP **192.168.1.1** i el client re
 
 <div align="center">
 
-![Prova de connectivitat entre el servidor i el client][image6]
+![Prova de connectivitat entre el servidor i el client](img/image6.png)
 
 <sub><i>Figura 6. Prova de connectivitat entre Ubuntu Server (192.168.1.1) i el client Zorin OS mitjançant ping.</i></sub>
 
@@ -105,7 +105,7 @@ Aquest fitxer és on Kea registra les concessions (*leases*) d’adreces IP. En 
 
 <div align="center">
 
-![Fitxer de concessions de Kea][image7]
+![Fitxer de concessions de Kea](img/image7.png)
 
 <sub><i>Figura 7. Fitxer de concessions IPv4 de Kea (kea-leases4.csv).</i></sub>
 
@@ -119,7 +119,7 @@ Aquesta comprovació confirma que el servidor està preparat per oferir adreces 
 
 <div align="center">
 
-![Estat de la interfície i del servei Kea][image8]
+![Estat de la interfície i del servei Kea](img/image8.png)
 
 <sub><i>Figura 8. IP fixa del servidor i estat actiu del servei DHCP de Kea.</i></sub>
 
